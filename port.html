@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+    <div class="container">
+    </div>
+    <div class="element">
+        <div class="info">
+           <img class="img" src="Photo1.webp"/>
+           <h3 class="name">Botcha Varun</h3>
+           <h4 class="cls">Type Designer and Lettering Artist</h4>
+           <a href="www.google.com" class="link">www.google.com</a>
+           <h4 class="place"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#434343"><path d="M480.21-480Q510-480 531-501.21t21-51Q552-582 530.79-603t-51-21Q450-624 429-602.79t-21 51Q408-522 429.21-501t51 21ZM480-191q119-107 179.5-197T720-549q0-105-68.5-174T480-792q-103 0-171.5 69T240-549q0 71 60.5 161T480-191Zm0 95Q323.03-227.11 245.51-339.55 168-452 168-549q0-134 89-224.5T479.5-864q133.5 0 223 90.5T792-549q0 97-77 209T480-96Zm0-456Z" class="loc"/></svg>Vizag/india</h4>
+           <button class="follow" onclick="clicked()"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" width="20px" fill="#434343"><path d="M444-288h72v-156h156v-72H516v-156h-72v156H288v72h156v156Zm36.28 192Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" class="plus"/></svg> Follow</button>
+            <button class="message"><a href="">message</button>
+        </div>
+        <div class="views"></div>
+        <div class="web"></div>
+        <div class="hire"></div>
+        <div class="bio"></div>
+    </div>
+    <script>
+        function clicked()
+        {
+            let btn=document.querySelector(".follow");
+            if(btn.style.backgroundColor=='blue'){
+            btn.style.backgroundColor="red";
+            btn.innerHTML="Unfollow"
+            }
+            else
+            {
+                btn.style.backgroundColor="blue"  ;
+                btn.innerHTML="Follow";
+            }
+        }
+    </script>
+</body>
+</html>

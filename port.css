@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    display: block;
+}
+.container
+{
+    width:100%;
+    height:30vh;
+    background:url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.element
+{
+    display: grid;
+    gap:10px;
+    background-color: #2196F3;
+    padding: 10px;
+    height:150vh;
+}
+.info
+{
+    grid-column: 1;
+    grid-row:1 / span 2;
+    background-color:aqua;
+    width:300px;
+    margin-left: 80px;
+    margin-top:-150px;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.img
+{  
+    order:1;
+    width:110px;
+    height:110px;
+    margin: 20px 100px 0 90px;
+    border-radius: 60px;
+}
+.name
+{
+    order: 2;
+    margin: 20px 50px 0 90px;
+}
+.link
+{
+    margin: 20px 50px 0 90px;
+    color:black;
+    order:4;
+}
+.cls
+{
+    order:3;
+    margin: 20px 0px 0 28px;
+    font-size: 16px;
+    display: block;
+
+}
+.place
+{
+    order:5;
+    margin: 20px 0px 0 88px;
+}
+.loc{
+
+    height: 15px;
+}
+.follow
+{
+    width:250px;
+    margin:10px 0 0 25px;
+    background-color: blue;
+    height:45px;
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    order:6;
+}
+  
+.plus
+{
+    height:35px;
+    margin-top:30px;
+}
+.views
+{
+    grid-column:2/4;
+    grid-row:1/2;
+    background-color:aqua;
+   width:750px;
+    height:100vh;
+    margin-left:10px;
+}
+.hire
+{
+    grid-column: 1;
+    grid-row: 2;
+    width:  250px;
+    height: 20vh;
+    margin-top:-510px;
+    margin-left: 80px;
+    background-color: aqua;
+}
+.bio
+{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width:750px;
+    margin-left:10px;
+    margin-top: -80px;
+    background-color: aqua;
+    height: 20vh;
+}
+.
